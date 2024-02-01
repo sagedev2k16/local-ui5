@@ -8,7 +8,7 @@
 3. Create a folder named "webapp" besides package.json
 4. Create "index.html" in webapp folder.
 5. Create "manifest.json" in webapp folder.
-6. Run "ui5 init" in root folder.
+6. Run "ui5 init" in root folder. Add start script in package.json.
 7. Do "npm start"
 8. Run "ui5 use OpenUI5".
 9. Run "ui5 add sap.ui.core sap.m themelib_sap_horizon"
@@ -113,6 +113,23 @@
 2. Add expression to put a simple calculation to show error or success state.
 
 ### Filtering, Sorting and Grouping
-1. 
+
+#### Filtering
+1. Add a Toolbar with Search field in the headerToolbar in Panel.
+2. Add a search event handler in the search field.
+3. Provide an id to the list.
+4. Define the search event handler in controller. Use the default event argument.
+5. Create an empty filter array and get query from event.
+6. Create a new filter and push it in the filter array.
+7. Get the items binding from list by using list id.
+8. Filter the binding using the filter array.
+
+#### Sorting
+1. Modify the items binding to use path syntax.
+2. Add a sorter property and provide the path.
+3. (Optional) Add "descending" true property in the sorter for reverse sorting.
+
+#### Grouping
+3. Add group true property in the sorter.
 
 ## Routing and Navigation

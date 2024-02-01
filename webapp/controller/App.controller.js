@@ -51,7 +51,16 @@ sap.ui.define([
 		},
 
         onFilterStudents(evt) {
-            
+            const filter = [];
+            const query = evt.getParameter("query");
+
+            if(query) {
+                filter.push(new Filter("name", FilterOperator.Contains, query))
+            }
+
+            const list = this.byId("studentsList");
+            const binding = list.getBinding("items");
+            binding.filter(filter);
         }
     });
  });

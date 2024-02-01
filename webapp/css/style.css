@@ -1,0 +1,8 @@
+.myCustomIcon {
+    transition: all 0.5s;
+}
+
+.myCustomIcon:hover {
+    color: red;
+    cursor: pointer;
+}

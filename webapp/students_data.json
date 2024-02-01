@@ -1,0 +1,141 @@
+[{
+  "id": "e860a225-f25d-4e29-b902-25944d16d6de",
+  "name": "Ginnifer Mordey",
+  "attendance": 86,
+  "marks": 75,
+  "gender": "Female",
+  "standard": "I"
+}, {
+  "id": "47265475-0745-4760-abae-9772026183bb",
+  "name": "Emerson Kilby",
+  "attendance": 77,
+  "marks": 55,
+  "gender": "Male",
+  "standard": "I"
+}, {
+  "id": "a6f5df53-11ed-4f0b-b65c-ca729da25f2e",
+  "name": "Briney Florentine",
+  "attendance": 79,
+  "marks": 70,
+  "gender": "Female",
+  "standard": "I"
+}, {
+  "id": "ae68da88-53dc-4374-9840-4016bf74c266",
+  "name": "Cary Eccles",
+  "attendance": 84,
+  "marks": 82,
+  "gender": "Male",
+  "standard": "III"
+}, {
+  "id": "359f2b19-54f7-4cbc-8e8b-23f4ea8196d1",
+  "name": "Constantino Densie",
+  "attendance": 75,
+  "marks": 83,
+  "gender": "Male",
+  "standard": "IV"
+}, {
+  "id": "1eed60b6-6159-4e3f-b10d-d6720a50e30f",
+  "name": "Linnea Shera",
+  "attendance": 85,
+  "marks": 66,
+  "gender": "Female",
+  "standard": "I"
+}, {
+  "id": "586a3b12-6848-4268-b2c9-4a12f3a6d4f5",
+  "name": "Brigid Kalkofen",
+  "attendance": 81,
+  "marks": 41,
+  "gender": "Female",
+  "standard": "I"
+}, {
+  "id": "d4fc76cc-e391-4d49-b6f2-bd99284b0379",
+  "name": "Dorian Beagen",
+  "attendance": 78,
+  "marks": 99,
+  "gender": "Female",
+  "standard": "III"
+}, {
+  "id": "38fb9886-049f-4de4-bfea-58068a15d5a9",
+  "name": "Ber Gerauld",
+  "attendance": 76,
+  "marks": 75,
+  "gender": "Male",
+  "standard": "IV"
+}, {
+  "id": "955bedd5-3e41-4498-b877-3364557cb688",
+  "name": "Sydney Brussels",
+  "attendance": 85,
+  "marks": 78,
+  "gender": "Female",
+  "standard": "III"
+}, {
+  "id": "3dad9dbe-4d78-4fad-a34b-dc59d75874a5",
+  "name": "Avie Bollins",
+  "attendance": 82,
+  "marks": 70,
+  "gender": "Female",
+  "standard": "III"
+}, {
+  "id": "d1c0e8f4-73d6-40e0-a960-1570ce2265d0",
+  "name": "Leonardo Balhatchet",
+  "attendance": 73,
+  "marks": 42,
+  "gender": "Male",
+  "standard": "I"
+}, {
+  "id": "151712fb-4004-4727-bd4d-41423fb0b52b",
+  "name": "Augustine Meynell",
+  "attendance": 79,
+  "marks": 69,
+  "gender": "Male",
+  "standard": "IV"
+}, {
+  "id": "ee99fe4d-3889-4246-81b6-b40808d22538",
+  "name": "Alyssa Dimbylow",
+  "attendance": 71,
+  "marks": 91,
+  "gender": "Female",
+  "standard": "I"
+}, {
+  "id": "0ff1c6e0-9780-4aaa-9363-fa622fc2c40d",
+  "name": "Vincent Coneau",
+  "attendance": 88,
+  "marks": 86,
+  "gender": "Male",
+  "standard": "III"
+}, {
+  "id": "ada0f05c-fc49-4bd9-9282-c69c415e4ec0",
+  "name": "Burgess Ridding",
+  "attendance": 88,
+  "marks": 98,
+  "gender": "Male",
+  "standard": "IV"
+}, {
+  "id": "bf9f585d-bce0-4e9a-a784-f50f25da8323",
+  "name": "Anatole St Pierre",
+  "attendance": 81,
+  "marks": 51,
+  "gender": "Male",
+  "standard": "IV"
+}, {
+  "id": "d4c6bb06-ba7c-40ab-8ec9-f8646543e8bb",
+  "name": "Wendye Blackbrough",
+  "attendance": 70,
+  "marks": 50,
+  "gender": "Female",
+  "standard": "IV"
+}, {
+  "id": "ce938049-8c40-4dd0-8887-d97f9f4f5c71",
+  "name": "Tobe Rizzillo",
+  "attendance": 89,
+  "marks": 96,
+  "gender": "Male",
+  "standard": "III"
+}, {
+  "id": "259f6ecf-2b64-4c55-b3a6-fbb763219eda",
+  "name": "Grange Andrey",
+  "attendance": 73,
+  "marks": 78,
+  "gender": "Male",
+  "standard": "III"
+}]

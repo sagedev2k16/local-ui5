@@ -61,7 +61,7 @@
 			"routerClass": "sap.m.routing.Router",
 			"type": "View",
 			"viewType": "XML",
-			"viwe": "ui5.training.view",
+			"path": "ui5.training.view",
 			"controlId": "app",
 			"controlAggregation": "pages"
 		},

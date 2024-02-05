@@ -1,5 +1,53 @@
 <mvc:View
     controllerName="ui5.training.controller.App" displayBlock="true"
-    xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-    
+    xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core">
+		<Page title="{i18n>homePageTitle}" class="sapUiSizeCozy">
+          	<content>
+			<Panel headerText="{i18n>helloPanelText}" width="auto" 
+            	class="sapUiResponsiveMargin">
+				<content>
+		  		<Text text="Hello"></Text>
+				<Button icon="sap-icon://world" text="{i18n>showHelloButtonText}" 
+                  press=".onShowHello" class="sapUiSmallMarginEnd" />
+				                <Input value="{/user/name}" 
+                valueLiveUpdate="true" width="50%" />
+                <Text class="sapUiSmallMargin"
+                  core:require="{formatMessage: 'sap/base/strings/formatMessage'}"
+                  text="{
+                    parts: ['i18n>helloMsg', '/user/name'],
+                    formatter: 'formatMessage'
+                  }" />
+				  </content>
+				</Panel>
+				            <List
+              id="studentsList"
+              class="sapUiResponsiveMargin"
+              width="auto"
+              items="{
+                path: 'students>/',
+                sorter: {
+                  path: 'standard',
+                  descending: true,
+                  group: true
+                }
+              }">
+				<items>
+                <ObjectListItem
+                    title="{students>name} ({students>gender})"
+                    icon="sap-icon://person-placeholder" 
+                    number="Marks: {students>marks}"
+                    type="Navigation"
+                    press=".onPress"
+                    numberState="{= ${students>marks} &lt; 75 ? 'Error' : 'Success' }" />
+              </items>
+			                <headerToolbar>
+                <Toolbar>
+                  <Title text="{i18n>studentsListTitle}" />
+                  <ToolbarSpacer />
+                  <SearchField width="50%" search=".onFilterStudents" />
+                </Toolbar>
+              </headerToolbar>
+			  </List>
+          	</content>
+        </Page>
 </mvc:View>

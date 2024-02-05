@@ -3,6 +3,11 @@
     "version": "1.0.0",
     "description": "UI5 training application",
     "scripts": {
-        "start": "ui5 serve -o index.html"
+        "start": "ui5 serve -o index.html",
+        "build": "ui5 build --dest='./approuter/dist' --all --clean-dest",
+        "serve": "live-server --entry-file='./approuter/dist/index.html'"
+    },
+    "devDependencies": {
+        "@ui5/cli": "^3"
     }
-}  
+}

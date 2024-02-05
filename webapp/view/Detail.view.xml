@@ -1,6 +1,6 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="ui5.training.controller.Detail">
 	<Page
 		title="{i18n>detailPageTitle}">
-		<ObjectHeader title="Student" />
+		<ObjectHeader title="{students>name}" intro="{students>standard} - {students>gender}" />
 	</Page>
 </mvc:View>

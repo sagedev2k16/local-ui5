@@ -26,6 +26,7 @@ sap.ui.define([
 
 	new ComponentContainer({
 		name: "ui5.training",
+		id: "container",
 		settings : {
 			id : "training"
 		},

@@ -61,6 +61,16 @@ sap.ui.define([
             const list = this.byId("studentsList");
             const binding = list.getBinding("items");
             binding.filter(filter);
-        }
+        },
+
+        onPress(evt) {
+            const studentInfo = evt.getSource();
+			const oRouter = this.getOwnerComponent().getRouter();
+			oRouter.navTo("detail", {
+                studentInfo: window.encodeURIComponent(
+                    studentInfo.getBindingContext("students").getPath().substr(1)
+                )
+            });
+		}
     });
  });

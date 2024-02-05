@@ -19,6 +19,10 @@
 	}
   },
   "sap.ui5": {
+	"contentDensities": {
+		"compact": true,
+		"cozy": true
+	},
 	"dependencies": {
 	  "minUI5Version": "1.108.0",
 	  "libs": {
@@ -55,8 +59,9 @@
 	"routing": {
 		"config": {
 			"routerClass": "sap.m.routing.Router",
+			"type": "View",
 			"viewType": "XML",
-			"viewPath": "ui5.training.view",
+			"viwe": "ui5.training.view",
 			"controlId": "app",
 			"controlAggregation": "pages"
 		},
@@ -67,7 +72,7 @@
 				"target": "overview"
 			},
 			{
-				"pattern": "detail",
+				"pattern": "detail/{studentInfo}",
 				"name": "detail",
 				"target": "detail"
 			}

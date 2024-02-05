@@ -133,3 +133,27 @@
 3. Add group true property in the sorter.
 
 ## Routing and Navigation
+1. Add "routing" object in manifext.json
+2. In the "routing" object create three objects: config, routes, targets
+3. Create another view called "Overview.view.xml" and put the content from App view in this new view.
+4. Create another view called "Detail.view.xml"
+5. Initialize router in Component.js
+6. Change list item type to Navigation and provide the "press" event handler in controller.
+7. Create "Detail.controller.js" in the controller folder. Attach it to the Detail view.
+8. Provide onInit and a pattern match event handler.
+
+## Building the application
+1. Add the build script in package.json
+2. Do "ui5 build --all --clean-dest"
+3. Run live-server in the dist folder
+
+## Deployment on BTP
+
+### Staticfile buildpack
+1. Deployment can be done using the Staticfile buildpack - for dev/test purposes
+
+### AppRouter
+1. Create an approuter folder with "manifext.yaml", "package.json" and "xs-app.json"
+2. Create / update XSUAA service instance using the xs-security.json file.
+3. Build the app using "npm run build" script.
+4. Deploy the app using "cf push"

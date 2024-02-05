@@ -1,0 +1,12 @@
+{
+    "welcomeFile": "./app/index.html",
+    "routes": [
+      {
+        "source": "^/app/(.*)$",
+        "target": "$1",
+        "localDir": "./dist",
+        "cacheControl": "no-cache, no-store, must-revalidate"
+      }
+    ]
+  }
+  

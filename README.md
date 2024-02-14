@@ -133,7 +133,7 @@
 3. Add group true property in the sorter.
 
 ## Routing and Navigation
-1. Add "routing" object in manifext.json
+1. Add "routing" object in manifest.json
 2. In the "routing" object create three objects: config, routes, targets
 3. Create another view called "Overview.view.xml" and put the content from App view in this new view.
 4. Create another view called "Detail.view.xml"
@@ -153,7 +153,7 @@
 1. Deployment can be done using the Staticfile buildpack - for dev/test purposes
 
 ### AppRouter
-1. Create an approuter folder with "manifext.yaml", "package.json" and "xs-app.json"
+1. Create an approuter folder with "manifest.yaml", "package.json" and "xs-app.json"
 2. Create / update XSUAA service instance using the xs-security.json file.
 3. Build the app using "npm run build" script.
 4. Deploy the app using "cf push"

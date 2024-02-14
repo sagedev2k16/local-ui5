@@ -6,10 +6,10 @@ sap.ui.define([
 	return Controller.extend("ui5.training.controller.Detail", {
 		onInit() {
 			const oRouter = this.getOwnerComponent().getRouter();
-			oRouter.getRoute("detail").attachPatternMatched(this.onObjectMatched, this);
+			oRouter.getRoute("detail").attachPatternMatched(this.onObjectMatched1, this);
 		},
 
-		onObjectMatched(oEvent) {
+		onObjectMatched1(oEvent) {
 			this.getView().bindElement({
 				path: "/" + window.decodeURIComponent(oEvent.getParameter("arguments").studentInfo),
 				model: "students"
